@@ -6,7 +6,7 @@ try {
   // validateConfig([], ["PORT"]);
   info("Config is valid, starting Express server");
 
-  const listener = createServer().listen(5001);
+  const listener = createServer().listen(8080);
   info(`Listening on port : ${listener.address()["port"]}`);
 } catch (e) {
   error("", e);
