@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
     "start:dev-win": "nodemon -x ts-node -r tsconfig-paths/register src/index.ts",
-    "start:dev": "npx nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.test.ts' --exec 'ts-node -r tsconfig-paths/register' src/index.ts"
+    "start:dev": "npx nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.test.ts' --exec 'ts-node -r tsconfig-paths/register' src/index.ts",
+    "pm2-start" : "tsc --project tsconfig.json && NODE_ENV=production pm2 start build/index.js"
   },
   "keywords": [],
   "author": "",
