@@ -9,7 +9,7 @@
     "dev": "webpack --mode development",
     "start:dev-win": "nodemon -x ts-node -r tsconfig-paths/register src/index.ts",
     "start:dev": "npx nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.test.ts' --exec 'ts-node -r tsconfig-paths/register' src/index.ts",
-    "pm2-start" : "tsc --project tsconfig.json && NODE_ENV=production pm2 start build/index.js"
+    "pm2-start": "tsc --project tsconfig.json && NODE_ENV=production pm2 start build/index.js"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +27,7 @@
     "@hapi/joi": "^17.1.1",
     "@middy/core": "^5.1.0",
     "aws-lambda": "^1.0.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
