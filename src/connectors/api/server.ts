@@ -12,6 +12,7 @@ export const createServer = (): Application => {
   methods: [
     'GET',
     'POST',
+    'PUT'
   ],
 
   allowedHeaders: [
