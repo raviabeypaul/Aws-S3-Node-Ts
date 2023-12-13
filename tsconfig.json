@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "preserveConstEnums": true,
+      "inlineSources": true,
+      "sourceRoot": "/",
+      "target": "es6",
+      "outDir": "./build",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "lib": ["es2020"],
+      "rootDir": "./src",
+      "baseUrl": "./",
+      "resolveJsonModule": true,
+      "types": ["node"],
+      "typeRoots": ["node_modules/@types"],
+      "importHelpers": true,
+      "sourceMap": true,                                   /* Create source map files for emitted JavaScript files. */
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.spec.ts"]
+  }
+  
