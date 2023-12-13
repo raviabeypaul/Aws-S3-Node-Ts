@@ -10,7 +10,7 @@
       "esModuleInterop": true,
       "lib": ["es2020"],
       "rootDir": "./src",
-      "baseUrl": "./src",
+      "baseUrl": "./",
       "resolveJsonModule": true,
       "types": ["node"],
       "typeRoots": ["node_modules/@types"],
